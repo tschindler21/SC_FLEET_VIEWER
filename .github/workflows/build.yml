@@ -1,0 +1,41 @@
+name: Build Fleet Viewer
+
+on:
+  push:
+    paths:
+      - 'fleet-template.xlsx'
+      - 'ships.json'
+      - 'images/**'
+      - 'build.py'
+  workflow_dispatch:  # allows manual trigger from GitHub UI
+
+permissions:
+  contents: write
+  pages: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install openpyxl Pillow
+
+      - name: Build fleet viewer
+        run: python build.py
+
+      - name: Commit and push index.html
+        run: |
+          git config user.name "Fleet Viewer Bot"
+          git config user.email "bot@fleet-viewer.local"
+          git add index.html
+          # Only commit if there are changes
+          git diff --staged --quiet || git commit -m "🚀 Auto-build fleet viewer"
+          git push

@@ -1,0 +1,1778 @@
+{
+  "_meta": {
+    "version": "1.0",
+    "updated": "2026-05-09",
+    "note": "Star Citizen ship database for SC Fleet Viewer. Stats are approximations. Add new ships by following the same format."
+  },
+  "ships": {
+    "aurora_mr": {
+      "name": "RSI Aurora MR",
+      "mfr": "RSI",
+      "role": "Multi-Role",
+      "subrole": "Starter",
+      "size": "Small",
+      "crew": "1",
+      "details": {
+        "Shields": "1\u00d7 Small (S1)",
+        "Cargo": "3 SCU",
+        "Weapons": "2\u00d7 S2",
+        "Missiles": "2\u00d7 S1"
+      },
+      "store_price": 30
+    },
+    "aurora_ln": {
+      "name": "RSI Aurora LN",
+      "mfr": "RSI",
+      "role": "Combat",
+      "subrole": "Light Fighter",
+      "size": "Small",
+      "crew": "1",
+      "details": {
+        "Shields": "1\u00d7 Small (S1)",
+        "Cargo": "3 SCU",
+        "Weapons": "2\u00d7 S3 + 2\u00d7 S2",
+        "Missiles": "4\u00d7 S2"
+      },
+      "store_price": 40
+    },
+    "mustang_alpha": {
+      "name": "CNOU Mustang Alpha",
+      "mfr": "Consolidated Outland",
+      "role": "Multi-Role",
+      "subrole": "Starter",
+      "size": "Small",
+      "crew": "1",
+      "details": {
+        "Shields": "1\u00d7 Small (S1)",
+        "Cargo": "4 SCU",
+        "Weapons": "2\u00d7 S2"
+      },
+      "store_price": 30
+    },
+    "300i": {
+      "name": "Origin 300i",
+      "mfr": "Origin",
+      "role": "Multi-Role",
+      "subrole": "Touring",
+      "size": "Small",
+      "crew": "1",
+      "details": {
+        "Shields": "1\u00d7 Small (S1)",
+        "Cargo": "8 SCU",
+        "Weapons": "2\u00d7 S3 + 1\u00d7 S4",
+        "Missiles": "4\u00d7 S2",
+        "SCM Speed": "~195 m/s"
+      },
+      "store_price": 60
+    },
+    "315p": {
+      "name": "Origin 315p",
+      "mfr": "Origin",
+      "role": "Exploration",
+      "subrole": "Pathfinder",
+      "size": "Small",
+      "crew": "1",
+      "details": {
+        "Shields": "1\u00d7 Small (S1)",
+        "Cargo": "12 SCU",
+        "Weapons": "2\u00d7 S3 + 1\u00d7 S4",
+        "Tractor Beam": "1\u00d7 S1"
+      },
+      "store_price": 65
+    },
+    "325a": {
+      "name": "Origin 325a",
+      "mfr": "Origin",
+      "role": "Combat",
+      "subrole": "Fighter",
+      "size": "Small",
+      "crew": "1",
+      "details": {
+        "Shields": "1\u00d7 Small (S1)",
+        "Weapons": "2\u00d7 S3 + 1\u00d7 S4",
+        "Missiles": "4\u00d7 S3"
+      },
+      "store_price": 70
+    },
+    "avenger_titan": {
+      "name": "Aegis Avenger Titan",
+      "mfr": "Aegis",
+      "role": "Multi-Role",
+      "subrole": "Light Hauler",
+      "size": "Small",
+      "crew": "1",
+      "details": {
+        "Shields": "1\u00d7 Small (S1)",
+        "Cargo": "8 SCU",
+        "Weapons": "1\u00d7 S4 (nose) + 2\u00d7 S3",
+        "Missiles": "2\u00d7 S2",
+        "SCM Speed": "~195 m/s"
+      },
+      "store_price": 60
+    },
+    "avenger_stalker": {
+      "name": "Aegis Avenger Stalker",
+      "mfr": "Aegis",
+      "role": "Combat",
+      "subrole": "Bounty Hunter",
+      "size": "Small",
+      "crew": "1",
+      "details": {
+        "Shields": "1\u00d7 Small (S1)",
+        "Weapons": "1\u00d7 S4 (nose) + 2\u00d7 S3",
+        "Missiles": "2\u00d7 S2",
+        "Bounty Pods": "6\u00d7 prisoner pods"
+      },
+      "store_price": 60
+    },
+    "gladius": {
+      "name": "Aegis Gladius",
+      "mfr": "Aegis",
+      "role": "Combat",
+      "subrole": "Light Fighter",
+      "size": "Small",
+      "crew": "1",
+      "details": {
+        "Shields": "1\u00d7 Small (S1)",
+        "Weapons": "3\u00d7 S3",
+        "Missiles": "4\u00d7 S3",
+        "SCM Speed": "~210 m/s"
+      },
+      "store_price": 90
+    },
+    "arrow": {
+      "name": "Anvil Arrow",
+      "mfr": "Anvil",
+      "role": "Combat",
+      "subrole": "Light Fighter",
+      "size": "Small",
+      "crew": "1",
+      "details": {
+        "Shields": "1\u00d7 Small (S1)",
+        "Weapons": "3\u00d7 S3 + 1\u00d7 S4",
+        "Missiles": "4\u00d7 S2",
+        "SCM Speed": "~210 m/s"
+      },
+      "store_price": 75
+    },
+    "nomad": {
+      "name": "CNOU Nomad",
+      "mfr": "Consolidated Outland",
+      "role": "Multi-Role",
+      "subrole": "Starter / Light Hauler",
+      "size": "Small",
+      "crew": "1",
+      "details": {
+        "Shields": "1\u00d7 Small (S1)",
+        "Cargo": "24 SCU (open bed)",
+        "Weapons": "2\u00d7 S3",
+        "Tractor Beam": "1\u00d7 S1",
+        "SCM Speed": "~175 m/s"
+      },
+      "store_price": 60
+    },
+    "pisces": {
+      "name": "Anvil Pisces",
+      "mfr": "Anvil",
+      "role": "Exploration",
+      "subrole": "Snub / Shuttle",
+      "size": "Small",
+      "crew": "1-3",
+      "details": {
+        "Shields": "1\u00d7 Small (S1)",
+        "Cargo": "4 SCU",
+        "Weapons": "2\u00d7 S1"
+      },
+      "store_price": 40
+    },
+    "sabre": {
+      "name": "Aegis Sabre",
+      "mfr": "Aegis",
+      "role": "Combat",
+      "subrole": "Stealth Fighter",
+      "size": "Small",
+      "crew": "1",
+      "details": {
+        "Shields": "1\u00d7 Medium (S2)",
+        "Weapons": "4\u00d7 S3",
+        "Stealth": "Reduced signatures",
+        "SCM Speed": "~200 m/s"
+      },
+      "store_price": 170
+    },
+    "sabre_raven": {
+      "name": "Aegis Sabre Raven",
+      "mfr": "Aegis",
+      "role": "Combat",
+      "subrole": "Stealth / EMP Fighter",
+      "size": "Small",
+      "crew": "1",
+      "details": {
+        "Shields": "1\u00d7 Small (S1)",
+        "Weapons": "2\u00d7 S3",
+        "EMP": "2\u00d7 EMP Emitters",
+        "Availability": "Intel SSD promo \u2014 unobtainable"
+      },
+      "store_price": 0
+    },
+    "f7a_mk1": {
+      "name": "Anvil F7A Hornet MkI",
+      "mfr": "Anvil",
+      "role": "Combat",
+      "subrole": "Fighter",
+      "size": "Small",
+      "crew": "1",
+      "details": {
+        "Shields": "1\u00d7 Medium (S2)",
+        "Weapons": "3\u00d7 S3 + 1\u00d7 S4",
+        "Turrets": "1\u00d7 Ball (2\u00d7 S2)",
+        "Missiles": "4\u00d7 S2"
+      },
+      "store_price": 180
+    },
+    "f7c_mk2": {
+      "name": "Anvil F7C Hornet MkII",
+      "mfr": "Anvil",
+      "role": "Combat",
+      "subrole": "Fighter",
+      "size": "Small",
+      "crew": "1",
+      "details": {
+        "Shields": "1\u00d7 Medium (S2)",
+        "Weapons": "3\u00d7 S4 + 1\u00d7 S5",
+        "Turrets": "1\u00d7 Ball (2\u00d7 S3)",
+        "Missiles": "4\u00d7 S3",
+        "SCM Speed": "~190 m/s"
+      },
+      "store_price": 175
+    },
+    "f7a_mk2": {
+      "name": "Anvil F7A Hornet MkII",
+      "mfr": "Anvil",
+      "role": "Combat",
+      "subrole": "Fighter",
+      "size": "Small",
+      "crew": "1",
+      "details": {
+        "Shields": "1\u00d7 Medium (S2)",
+        "Weapons": "3\u00d7 S4 + 1\u00d7 S5",
+        "Turrets": "1\u00d7 Ball (2\u00d7 S3)",
+        "Missiles": "4\u00d7 S3",
+        "SCM Speed": "~190 m/s"
+      },
+      "store_price": 195
+    },
+    "f8c": {
+      "name": "Anvil F8C Lightning",
+      "mfr": "Anvil",
+      "role": "Combat",
+      "subrole": "Heavy Fighter",
+      "size": "Small",
+      "crew": "1",
+      "details": {
+        "Shields": "2\u00d7 Small (S1)",
+        "Weapons": "4\u00d7 S4",
+        "Missiles": "4\u00d7 S4",
+        "Availability": "Concierge Admiral tier"
+      },
+      "store_price": 0
+    },
+    "alpha_wolf": {
+      "name": "Kruger Alpha Wolf",
+      "mfr": "Kruger",
+      "role": "Combat",
+      "subrole": "Light Fighter",
+      "size": "Small",
+      "crew": "1",
+      "details": {
+        "Shields": "1\u00d7 Small (S1)",
+        "Weapons": "2\u00d7 S3 + 1\u00d7 S4",
+        "Missiles": "4\u00d7 S2"
+      },
+      "store_price": 120
+    },
+    "cutlass_black": {
+      "name": "Drake Cutlass Black",
+      "mfr": "Drake",
+      "role": "Multi-Role",
+      "subrole": "Multi-Role Fighter",
+      "size": "Medium",
+      "crew": "2",
+      "details": {
+        "Shields": "1\u00d7 Medium (S2)",
+        "Cargo": "46 SCU",
+        "Weapons": "4\u00d7 S3 (pilot)",
+        "Turrets": "1\u00d7 Manned (2\u00d7 S3)",
+        "Missiles": "2\u00d7 S2",
+        "SCM Speed": "~160 m/s"
+      },
+      "store_price": 110
+    },
+    "cutlass_red": {
+      "name": "Drake Cutlass Red",
+      "mfr": "Drake",
+      "role": "Support",
+      "subrole": "Medical",
+      "size": "Medium",
+      "crew": "2",
+      "details": {
+        "Shields": "1\u00d7 Medium (S2)",
+        "Medical": "2\u00d7 T3 Medbeds",
+        "Weapons": "4\u00d7 S3 (pilot)",
+        "SCM Speed": "~160 m/s"
+      },
+      "store_price": 135
+    },
+    "freelancer": {
+      "name": "MISC Freelancer",
+      "mfr": "MISC",
+      "role": "Hauling",
+      "subrole": "Medium Hauler",
+      "size": "Medium",
+      "crew": "2",
+      "details": {
+        "Shields": "1\u00d7 Medium (S2)",
+        "Cargo": "66 SCU",
+        "Weapons": "4\u00d7 S3 (pilot)",
+        "Turrets": "1\u00d7 Manned (2\u00d7 S3)",
+        "Missiles": "4\u00d7 S3"
+      },
+      "store_price": 110
+    },
+    "freelancer_max": {
+      "name": "MISC Freelancer MAX",
+      "mfr": "MISC",
+      "role": "Hauling",
+      "subrole": "Heavy Hauler",
+      "size": "Medium",
+      "crew": "2",
+      "details": {
+        "Shields": "1\u00d7 Medium (S2)",
+        "Cargo": "120 SCU",
+        "Weapons": "4\u00d7 S3 (pilot)"
+      },
+      "store_price": 150
+    },
+    "freelancer_dur": {
+      "name": "MISC Freelancer DUR",
+      "mfr": "MISC",
+      "role": "Exploration",
+      "subrole": "Explorer",
+      "size": "Medium",
+      "crew": "2",
+      "details": {
+        "Shields": "1\u00d7 Medium (S2)",
+        "Cargo": "36 SCU",
+        "Quantum Fuel": "Extended range",
+        "Weapons": "4\u00d7 S3 (pilot)"
+      },
+      "store_price": 135
+    },
+    "freelancer_mis": {
+      "name": "MISC Freelancer MIS",
+      "mfr": "MISC",
+      "role": "Combat",
+      "subrole": "Gunship",
+      "size": "Medium",
+      "crew": "2",
+      "details": {
+        "Shields": "1\u00d7 Medium (S2)",
+        "Cargo": "28 SCU",
+        "Weapons": "4\u00d7 S3 (pilot)",
+        "Missiles": "28\u00d7 S3"
+      },
+      "store_price": 175
+    },
+    "clipper": {
+      "name": "Drake Clipper",
+      "mfr": "Drake",
+      "role": "Multi-Role",
+      "subrole": "Daily Driver",
+      "size": "Medium",
+      "crew": "1",
+      "details": {
+        "Shields": "1\u00d7 Medium (S2)",
+        "Cargo": "12 SCU",
+        "Medical": "T3 Medbed",
+        "Crafting": "Fabrication station"
+      },
+      "store_price": 75
+    },
+    "c1_spirit": {
+      "name": "Crusader C1 Spirit",
+      "mfr": "Crusader",
+      "role": "Hauling",
+      "subrole": "Medium Hauler",
+      "size": "Medium",
+      "crew": "1-2",
+      "details": {
+        "Shields": "1\u00d7 Medium (S2)",
+        "Cargo": "64 SCU",
+        "Weapons": "2\u00d7 S4 gimballed",
+        "Missiles": "8\u00d7 S2",
+        "Tractor Beam": "1\u00d7 S1",
+        "Quantum Fuel": "583 QF",
+        "SCM Speed": "~175 m/s"
+      },
+      "store_price": 125
+    },
+    "a1_spirit": {
+      "name": "Crusader A1 Spirit",
+      "mfr": "Crusader",
+      "role": "Combat",
+      "subrole": "Bomber",
+      "size": "Medium",
+      "crew": "1-2",
+      "details": {
+        "Shields": "1\u00d7 Medium (S2)",
+        "Weapons": "2\u00d7 S4 gimballed",
+        "Bombs": "Bomb bay",
+        "Turrets": "1\u00d7 Remote (2\u00d7 S3)"
+      },
+      "store_price": 150
+    },
+    "mercury": {
+      "name": "Crusader Mercury Star Runner",
+      "mfr": "Crusader",
+      "role": "Multi-Role",
+      "subrole": "Data Runner / Hauler",
+      "size": "Medium",
+      "crew": "3",
+      "details": {
+        "Shields": "1\u00d7 Medium (S2)",
+        "Cargo": "114 SCU",
+        "Weapons": "2\u00d7 S3 (pilot)",
+        "Turrets": "2\u00d7 (2\u00d7 S3 each)",
+        "Data": "Server room + scanning suite"
+      },
+      "store_price": 260
+    },
+    "hull_b": {
+      "name": "MISC Hull B",
+      "mfr": "MISC",
+      "role": "Hauling",
+      "subrole": "Cargo Transport",
+      "size": "Medium",
+      "crew": "1",
+      "details": {
+        "Shields": "1\u00d7 Medium (S2)",
+        "Cargo": "512 SCU (spindle-mounted)",
+        "Weapons": "2\u00d7 S3"
+      },
+      "store_price": 120
+    },
+    "m80": {
+      "name": "Origin M80",
+      "mfr": "Origin",
+      "role": "Combat",
+      "subrole": "Fighter",
+      "size": "Medium",
+      "crew": "1",
+      "details": {
+        "Announced": "DefenseCon 2956",
+        "Note": "No detailed specs yet"
+      },
+      "store_price": 250
+    },
+    "ares_inferno": {
+      "name": "Crusader Ares Inferno",
+      "mfr": "Crusader",
+      "role": "Combat",
+      "subrole": "Heavy Fighter",
+      "size": "Medium",
+      "crew": "1",
+      "details": {
+        "Shields": "1\u00d7 Medium (S2)",
+        "Weapons": "1\u00d7 S7 Ballistic Gatling (fixed)",
+        "Missiles": "4\u00d7 S3",
+        "SCM Speed": "~155 m/s"
+      },
+      "store_price": 250
+    },
+    "ares_ion": {
+      "name": "Crusader Ares Ion",
+      "mfr": "Crusader",
+      "role": "Combat",
+      "subrole": "Heavy Fighter",
+      "size": "Medium",
+      "crew": "1",
+      "details": {
+        "Shields": "1\u00d7 Medium (S2)",
+        "Weapons": "1\u00d7 S7 Laser Cannon (fixed)",
+        "Missiles": "4\u00d7 S3",
+        "SCM Speed": "~155 m/s"
+      },
+      "store_price": 250
+    },
+    "paladin": {
+      "name": "Anvil Paladin",
+      "mfr": "Anvil",
+      "role": "Combat",
+      "subrole": "Multi-Role Fighter",
+      "size": "Medium",
+      "crew": "1",
+      "details": {
+        "Shields": "1\u00d7 Medium (S2)",
+        "Modular Bays": "Swappable mission pods",
+        "Weapons": "Multiple S4 hardpoints"
+      },
+      "store_price": 350
+    },
+    "zeus_mr": {
+      "name": "RSI Zeus MR",
+      "mfr": "RSI",
+      "role": "Multi-Role",
+      "subrole": "Multi-Role",
+      "size": "Medium",
+      "crew": "2",
+      "details": {
+        "Shields": "1\u00d7 Medium (S2)",
+        "Weapons": "2\u00d7 S4",
+        "Missiles": "4\u00d7 S2"
+      },
+      "store_price": 185
+    },
+    "zeus_es": {
+      "name": "RSI Zeus ES",
+      "mfr": "RSI",
+      "role": "Exploration",
+      "subrole": "Explorer",
+      "size": "Medium",
+      "crew": "2",
+      "details": {
+        "Shields": "1\u00d7 Medium (S2)",
+        "Cargo": "~24 SCU",
+        "Weapons": "2\u00d7 S4",
+        "Missiles": "4\u00d7 S2",
+        "Scanning": "Exploration sensors"
+      },
+      "store_price": 200
+    },
+    "starlite": {
+      "name": "MISC Starlite",
+      "mfr": "MISC",
+      "role": "Support",
+      "subrole": "Support Vessel",
+      "size": "Medium",
+      "crew": "1-2",
+      "details": {
+        "Announced": "DefenseCon 2956",
+        "Note": "No detailed specs yet"
+      },
+      "store_price": 0
+    },
+    "constellation_andromeda": {
+      "name": "RSI Constellation Andromeda",
+      "mfr": "RSI",
+      "role": "Multi-Role",
+      "subrole": "Multi-Crew Gunship",
+      "size": "Large",
+      "crew": "4",
+      "details": {
+        "Shields": "2\u00d7 Medium (S2)",
+        "Cargo": "96 SCU",
+        "Weapons": "4\u00d7 S5 (pilot)",
+        "Turrets": "2\u00d7 Manned (2\u00d7 S4)",
+        "Missiles": "28\u00d7 S2",
+        "Snub": "P-52 Merlin included"
+      },
+      "store_price": 240
+    },
+    "600i": {
+      "name": "Origin 600i",
+      "mfr": "Origin",
+      "role": "Exploration",
+      "subrole": "Touring / Exploration",
+      "size": "Large",
+      "crew": "3",
+      "details": {
+        "Shields": "2\u00d7 Large (S3)",
+        "Cargo": "40 SCU",
+        "Weapons": "3\u00d7 S5",
+        "Turrets": "2\u00d7 (2\u00d7 S3 each)",
+        "Missiles": "8\u00d7 S3",
+        "SCM Speed": "~130 m/s"
+      },
+      "store_price": 350
+    },
+    "corsair": {
+      "name": "Drake Corsair",
+      "mfr": "Drake",
+      "role": "Exploration",
+      "subrole": "Armed Explorer",
+      "size": "Large",
+      "crew": "4",
+      "details": {
+        "Shields": "2\u00d7 Medium (S2)",
+        "Cargo": "72 SCU",
+        "Weapons": "2\u00d7 S5 (pilot)",
+        "Turrets": "2\u00d7 Manned (2\u00d7 S4) + 1\u00d7 Remote (2\u00d7 S3)"
+      },
+      "store_price": 250
+    },
+    "reclaimer": {
+      "name": "Aegis Reclaimer",
+      "mfr": "Aegis",
+      "role": "Industrial",
+      "subrole": "Salvage",
+      "size": "Large",
+      "crew": "5",
+      "details": {
+        "Shields": "2\u00d7 Large (S3)",
+        "Cargo": "~400 SCU",
+        "Salvage": "Industrial claw arm + drones",
+        "Turrets": "1\u00d7 Manned (2\u00d7 S4)",
+        "SCM Speed": "~60 m/s"
+      },
+      "store_price": 400
+    },
+    "caterpillar": {
+      "name": "Drake Caterpillar",
+      "mfr": "Drake",
+      "role": "Hauling",
+      "subrole": "Heavy Hauler",
+      "size": "Large",
+      "crew": "3",
+      "details": {
+        "Shields": "2\u00d7 Large (S3)",
+        "Cargo": "576 SCU",
+        "Weapons": "2\u00d7 S4 (pilot)",
+        "Turrets": "2\u00d7 Manned (2\u00d7 S3)",
+        "Command Module": "Detachable"
+      },
+      "store_price": 330
+    },
+    "c2_hercules": {
+      "name": "Crusader C2 Hercules",
+      "mfr": "Crusader",
+      "role": "Hauling",
+      "subrole": "Heavy Hauler",
+      "size": "Large",
+      "crew": "2",
+      "details": {
+        "Shields": "2\u00d7 Large (S3)",
+        "Cargo": "696 SCU",
+        "Turrets": "2\u00d7 Manned (2\u00d7 S4)",
+        "Vehicle Bay": "Large ramp for vehicles"
+      },
+      "store_price": 400
+    },
+    "m2_hercules": {
+      "name": "Crusader M2 Hercules",
+      "mfr": "Crusader",
+      "role": "Mil. Support",
+      "subrole": "Military Transport",
+      "size": "Large",
+      "crew": "2-5",
+      "details": {
+        "Shields": "2\u00d7 Large (S3)",
+        "Cargo": "522 SCU",
+        "Weapons": "2\u00d7 S5 (pilot)",
+        "Turrets": "2\u00d7 Manned (2\u00d7 S5)",
+        "Vehicle Bay": "Large ramp for vehicles"
+      },
+      "store_price": 520
+    },
+    "a2_hercules": {
+      "name": "Crusader A2 Hercules",
+      "mfr": "Crusader",
+      "role": "Combat",
+      "subrole": "Gunship / Bomber",
+      "size": "Large",
+      "crew": "2-5",
+      "details": {
+        "Shields": "2\u00d7 Large (S3)",
+        "Cargo": "216 SCU",
+        "Weapons": "2\u00d7 S5 (pilot)",
+        "Turrets": "2\u00d7 Manned (2\u00d7 S5)",
+        "Bombs": "MOAB bomb bay"
+      },
+      "store_price": 750
+    },
+    "carrack": {
+      "name": "Anvil Carrack",
+      "mfr": "Anvil",
+      "role": "Exploration",
+      "subrole": "Expedition",
+      "size": "Large",
+      "crew": "4-6",
+      "details": {
+        "Shields": "2\u00d7 Large (S3)",
+        "Cargo": "456 SCU",
+        "Medical": "T2 Medbed",
+        "Drone Bay": "Repair drones",
+        "Snub": "Pisces included",
+        "Scanning": "Advanced exploration suite"
+      },
+      "store_price": 600
+    },
+    "hammerhead": {
+      "name": "Aegis Hammerhead",
+      "mfr": "Aegis",
+      "role": "Combat",
+      "subrole": "Area Denial",
+      "size": "Large",
+      "crew": "6-8",
+      "details": {
+        "Shields": "2\u00d7 Large (S3)",
+        "Turrets": "6\u00d7 Manned (4\u00d7 S4 each)",
+        "SCM Speed": "~85 m/s"
+      },
+      "store_price": 725
+    },
+    "perseus": {
+      "name": "RSI Perseus",
+      "mfr": "RSI",
+      "role": "Combat",
+      "subrole": "Patrol Gunship",
+      "size": "Large",
+      "crew": "6",
+      "details": {
+        "Shields": "2\u00d7 Large (S3)",
+        "Shield HP": "~37,800",
+        "Cargo": "96 SCU",
+        "Turrets (Manned)": "2\u00d7 Twin S8 + 2\u00d7 S3 each",
+        "Turrets (Remote)": "1\u00d7 Keel (2\u00d7 S3)",
+        "Point Defense": "6\u00d7 PDT",
+        "Torpedoes": "40\u00d7 S5",
+        "Quantum Fuel": "3,850 QF",
+        "SCM Speed": "~105 m/s"
+      },
+      "store_price": 800
+    },
+    "ironclad_assault": {
+      "name": "Drake Ironclad Assault",
+      "mfr": "Drake",
+      "role": "Mil. Support",
+      "subrole": "Combined Arms",
+      "size": "Large",
+      "crew": "4-8",
+      "details": {
+        "Cargo": "1,440 SCU",
+        "Vehicle Bay": "4\u00d7 heavy assault vehicles",
+        "Repair Bay": "Full refuel / rearm / fabricate",
+        "Turrets": "3\u00d7 Quad Turrets",
+        "Command Module": "Detachable",
+        "Note": "Not yet flight ready"
+      },
+      "store_price": 0
+    },
+    "ironclad": {
+      "name": "Drake Ironclad",
+      "mfr": "Drake",
+      "role": "Hauling",
+      "subrole": "Heavy Hauler",
+      "size": "Large",
+      "crew": "4-8",
+      "details": {
+        "Cargo": "2,800+ SCU (est.)",
+        "Command Module": "Detachable",
+        "Note": "Not yet flight ready"
+      },
+      "store_price": 0
+    },
+    "tiburon": {
+      "name": "Aegis Tiburon",
+      "mfr": "Aegis",
+      "role": "Combat",
+      "subrole": "Area Denial",
+      "size": "Large",
+      "crew": "6-8",
+      "details": {
+        "Series": "Hammerhead",
+        "Announced": "DefenseCon 2956",
+        "Note": "No detailed specs yet"
+      },
+      "store_price": 0
+    },
+    "liberator": {
+      "name": "Anvil Liberator",
+      "mfr": "Anvil",
+      "role": "Mil. Support",
+      "subrole": "Open-Deck Carrier",
+      "size": "Large",
+      "crew": "2-4",
+      "details": {
+        "Shields": "2\u00d7 Large (S3)",
+        "Vehicle Capacity": "3\u00d7 medium ships or ground vehicles",
+        "Turrets": "2\u00d7 Manned (2\u00d7 S4)"
+      },
+      "store_price": 400
+    },
+    "galaxy": {
+      "name": "RSI Galaxy",
+      "mfr": "RSI",
+      "role": "Multi-Role",
+      "subrole": "Modular Platform",
+      "size": "Large",
+      "crew": "4",
+      "details": {
+        "Shields": "2\u00d7 Large (S3)",
+        "Modules": "Swappable cargo / medical / refinery",
+        "Weapons": "2\u00d7 S5 (pilot)",
+        "Turrets": "2\u00d7 Manned"
+      },
+      "store_price": 380
+    },
+    "retaliator": {
+      "name": "Aegis Retaliator",
+      "mfr": "Aegis",
+      "role": "Combat",
+      "subrole": "Torpedo Bomber",
+      "size": "Large",
+      "crew": "5-7",
+      "details": {
+        "Shields": "2\u00d7 Medium (S2)",
+        "Torpedoes": "6\u00d7 S9",
+        "Turrets": "5\u00d7 Manned (2\u00d7 S3 each)",
+        "Modules": "Swappable torpedo / cargo / living"
+      },
+      "store_price": 275
+    },
+    "hermes": {
+      "name": "RSI Hermes",
+      "mfr": "RSI",
+      "role": "Multi-Role",
+      "subrole": "Courier",
+      "size": "Medium",
+      "crew": "1-2",
+      "details": {
+        "Note": "Details TBD"
+      },
+      "store_price": 220
+    },
+    "prospector": {
+      "name": "MISC Prospector",
+      "mfr": "MISC",
+      "role": "Industrial",
+      "subrole": "Mining",
+      "size": "Small",
+      "crew": "1",
+      "details": {
+        "Shields": "1\u00d7 Small (S1)",
+        "Mining": "1\u00d7 S1 Mining Laser",
+        "Cargo": "32 SCU (ore bags)"
+      },
+      "store_price": 155
+    },
+    "vulture": {
+      "name": "Drake Vulture",
+      "mfr": "Drake",
+      "role": "Industrial",
+      "subrole": "Salvage",
+      "size": "Small",
+      "crew": "1",
+      "details": {
+        "Shields": "1\u00d7 Small (S1)",
+        "Salvage": "1\u00d7 Salvage arm",
+        "Cargo": "12 SCU"
+      },
+      "store_price": 140
+    },
+    "mole": {
+      "name": "MISC MOLE",
+      "mfr": "MISC",
+      "role": "Industrial",
+      "subrole": "Mining",
+      "size": "Medium",
+      "crew": "3-4",
+      "details": {
+        "Shields": "1\u00d7 Medium (S2)",
+        "Mining": "3\u00d7 S2 Mining Lasers",
+        "Cargo": "96 SCU (ore bags)"
+      },
+      "store_price": 315
+    },
+    "raft": {
+      "name": "Argo RAFT",
+      "mfr": "Argo",
+      "role": "Hauling",
+      "subrole": "Cargo Transport",
+      "size": "Medium",
+      "crew": "1",
+      "details": {
+        "Shields": "1\u00d7 Medium (S2)",
+        "Cargo": "96 SCU (3\u00d7 32 SCU containers)"
+      },
+      "store_price": 85
+    },
+    "hull_a": {
+      "name": "MISC Hull A",
+      "mfr": "MISC",
+      "role": "Hauling",
+      "subrole": "Light Hauler",
+      "size": "Small",
+      "crew": "1",
+      "details": {
+        "Shields": "1\u00d7 Small (S1)",
+        "Cargo": "64 SCU (spindle)"
+      },
+      "store_price": 80
+    },
+    "hull_c": {
+      "name": "MISC Hull C",
+      "mfr": "MISC",
+      "role": "Hauling",
+      "subrole": "Bulk Freighter",
+      "size": "Large",
+      "crew": "3",
+      "details": {
+        "Shields": "2\u00d7 Large (S3)",
+        "Cargo": "4,608 SCU (spindle)"
+      },
+      "store_price": 300
+    },
+    "polaris": {
+      "name": "RSI Polaris",
+      "mfr": "RSI",
+      "role": "Combat",
+      "subrole": "Corvette",
+      "size": "Capital",
+      "crew": "14-24",
+      "details": {
+        "Shields": "2\u00d7 Capital (S4)",
+        "Torpedoes": "28\u00d7 S10",
+        "Turrets": "Multiple S4-S5",
+        "Hangar": "1\u00d7 medium fighter",
+        "Medical": "T2 Medbed"
+      },
+      "store_price": 800
+    },
+    "890_jump": {
+      "name": "Origin 890 Jump",
+      "mfr": "Origin",
+      "role": "Exploration",
+      "subrole": "Luxury Touring",
+      "size": "Capital",
+      "crew": "5",
+      "details": {
+        "Shields": "2\u00d7 Capital (S4)",
+        "Cargo": "40 SCU",
+        "Hangar": "1\u00d7 85X included",
+        "Turrets": "2\u00d7 Manned (2\u00d7 S5) + 2\u00d7 Remote (2\u00d7 S4)"
+      },
+      "store_price": 950
+    },
+    "pitbull": {
+      "name": "Drake Pitbull",
+      "mfr": "Drake",
+      "role": "Combat",
+      "subrole": "Light Fighter",
+      "size": "Small",
+      "crew": "1",
+      "store_price": 55,
+      "details": {
+        "Announced": "DefenseCon 2956"
+      }
+    },
+    "stinger": {
+      "name": "Esperia Stinger",
+      "mfr": "Esperia",
+      "role": "Combat",
+      "subrole": "Fighter",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 285,
+      "details": {
+        "Note": "Alien fighter"
+      }
+    },
+    "100i": {
+      "name": "Origin 100i",
+      "mfr": "Origin",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 50
+    },
+    "125a": {
+      "name": "Origin 125a",
+      "mfr": "Origin",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 60
+    },
+    "135c": {
+      "name": "Origin 135c",
+      "mfr": "Origin",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 65
+    },
+    "350r": {
+      "name": "Origin 350r",
+      "mfr": "Origin",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 125
+    },
+    "400i": {
+      "name": "Origin 400i",
+      "mfr": "Origin",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 250
+    },
+    "600i_explorer": {
+      "name": "Origin 600i Explorer",
+      "mfr": "Origin",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 475
+    },
+    "600i_touring": {
+      "name": "Origin 600i Touring",
+      "mfr": "Origin",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 435
+    },
+    "85x": {
+      "name": "Origin 85X",
+      "mfr": "Origin",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 50
+    },
+    "apollo_medivac": {
+      "name": "RSI Apollo Medivac",
+      "mfr": "RSI",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 275
+    },
+    "apollo_triage": {
+      "name": "RSI Apollo Triage",
+      "mfr": "RSI",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 250
+    },
+    "aurora_cl": {
+      "name": "RSI Aurora CL",
+      "mfr": "RSI",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 45
+    },
+    "aurora_es": {
+      "name": "RSI Aurora ES",
+      "mfr": "RSI",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 20
+    },
+    "aurora_lx": {
+      "name": "RSI Aurora LX",
+      "mfr": "RSI",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 35
+    },
+    "avenger_warlock": {
+      "name": "Aegis Avenger Warlock",
+      "mfr": "Aegis",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 85
+    },
+    "blade": {
+      "name": "Esperia Blade",
+      "mfr": "Esperia",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 275
+    },
+    "buccaneer": {
+      "name": "Drake Buccaneer",
+      "mfr": "Drake",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 110
+    },
+    "c8r_pisces": {
+      "name": "Anvil C8R Pisces",
+      "mfr": "Anvil",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 65
+    },
+    "c8x_pisces": {
+      "name": "Anvil C8X Pisces",
+      "mfr": "Anvil",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 45
+    },
+    "carrack_expedition": {
+      "name": "Anvil Carrack Expedition",
+      "mfr": "Anvil",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 625
+    },
+    "constellation_aquila": {
+      "name": "RSI Constellation Aquila",
+      "mfr": "RSI",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 310
+    },
+    "constellation_phoenix": {
+      "name": "RSI Constellation Phoenix",
+      "mfr": "RSI",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 350
+    },
+    "constellation_taurus": {
+      "name": "RSI Constellation Taurus",
+      "mfr": "RSI",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 190
+    },
+    "crucible": {
+      "name": "Anvil Crucible",
+      "mfr": "Anvil",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 350
+    },
+    "cutlass_blue": {
+      "name": "Drake Cutlass Blue",
+      "mfr": "Drake",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 175
+    },
+    "cutter": {
+      "name": "Drake Cutter",
+      "mfr": "Drake",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 45
+    },
+    "defender": {
+      "name": "Banu Defender",
+      "mfr": "Banu",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 220
+    },
+    "eclipse": {
+      "name": "Aegis Eclipse",
+      "mfr": "Aegis",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 300
+    },
+    "endeavor": {
+      "name": "MISC Endeavor",
+      "mfr": "MISC",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 350
+    },
+    "f7c_hornet": {
+      "name": "Anvil F7C Hornet",
+      "mfr": "Anvil",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 110
+    },
+    "f7c_m_super_hornet": {
+      "name": "Anvil F7C-M Super Hornet",
+      "mfr": "Anvil",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 180
+    },
+    "f7c_r_hornet_tracker": {
+      "name": "Anvil F7C-R Hornet Tracker",
+      "mfr": "Anvil",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 140
+    },
+    "f7c_s_hornet_ghost": {
+      "name": "Anvil F7C-S Hornet Ghost",
+      "mfr": "Anvil",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 125
+    },
+    "fury": {
+      "name": "MISC Fury",
+      "mfr": "MISC",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 55
+    },
+    "gladiator": {
+      "name": "Anvil Gladiator",
+      "mfr": "Anvil",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 165
+    },
+    "gladius_valiant": {
+      "name": "Aegis Gladius Valiant",
+      "mfr": "Aegis",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 110
+    },
+    "glaive": {
+      "name": "Esperia Glaive",
+      "mfr": "Esperia",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 350
+    },
+    "herald": {
+      "name": "Drake Herald",
+      "mfr": "Drake",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 85
+    },
+    "hull_d": {
+      "name": "MISC Hull D",
+      "mfr": "MISC",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 400
+    },
+    "hull_e": {
+      "name": "MISC Hull E",
+      "mfr": "MISC",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 700
+    },
+    "hurricane": {
+      "name": "Anvil Hurricane",
+      "mfr": "Anvil",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 195
+    },
+    "khartu_al": {
+      "name": "Esperia Khartu-Al",
+      "mfr": "Esperia",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 170
+    },
+    "m50": {
+      "name": "Origin M50",
+      "mfr": "Origin",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 100
+    },
+    "mantis": {
+      "name": "RSI Mantis",
+      "mfr": "RSI",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 150
+    },
+    "merchantman": {
+      "name": "Banu Merchantman",
+      "mfr": "Banu",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 550
+    },
+    "nautilus": {
+      "name": "Aegis Nautilus",
+      "mfr": "Aegis",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 725
+    },
+    "nox": {
+      "name": "Aopoa Nox",
+      "mfr": "Aopoa",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 40
+    },
+    "odyssey": {
+      "name": "MISC Odyssey",
+      "mfr": "MISC",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 450
+    },
+    "orion": {
+      "name": "RSI Orion",
+      "mfr": "RSI",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 575
+    },
+    "p_52_merlin": {
+      "name": "Kruger P-52 Merlin",
+      "mfr": "Kruger",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 20
+    },
+    "p_72_archimedes": {
+      "name": "Kruger P-72 Archimedes",
+      "mfr": "Kruger",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 25
+    },
+    "prowler": {
+      "name": "Esperia Prowler",
+      "mfr": "Esperia",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 425
+    },
+    "railen": {
+      "name": "Gatac Railen",
+      "mfr": "Gatac",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 150
+    },
+    "razor": {
+      "name": "MISC Razor",
+      "mfr": "MISC",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 135
+    },
+    "redeemer": {
+      "name": "Aegis Redeemer",
+      "mfr": "Aegis",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 325
+    },
+    "reliant_kore": {
+      "name": "MISC Reliant Kore",
+      "mfr": "MISC",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 65
+    },
+    "reliant_mako": {
+      "name": "MISC Reliant Mako",
+      "mfr": "MISC",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 75
+    },
+    "reliant_sen": {
+      "name": "MISC Reliant Sen",
+      "mfr": "MISC",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 65
+    },
+    "reliant_tana": {
+      "name": "MISC Reliant Tana",
+      "mfr": "MISC",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 65
+    },
+    "retaliator_bomber": {
+      "name": "Aegis Retaliator Bomber",
+      "mfr": "Aegis",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 275
+    },
+    "santokyai": {
+      "name": "Aopoa San'tok.yai",
+      "mfr": "Aopoa",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 220
+    },
+    "scorpius": {
+      "name": "RSI Scorpius",
+      "mfr": "RSI",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 220
+    },
+    "srv": {
+      "name": "Argo SRV",
+      "mfr": "Argo",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 150
+    },
+    "starfarer": {
+      "name": "MISC Starfarer",
+      "mfr": "MISC",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 340
+    },
+    "starfarer_gemini": {
+      "name": "MISC Starfarer Gemini",
+      "mfr": "MISC",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 340
+    },
+    "terrapin": {
+      "name": "Anvil Terrapin",
+      "mfr": "Anvil",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 220
+    },
+    "valkyrie": {
+      "name": "Anvil Valkyrie",
+      "mfr": "Anvil",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 375
+    },
+    "vanguard_harbinger": {
+      "name": "Aegis Vanguard Harbinger",
+      "mfr": "Aegis",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 290
+    },
+    "vanguard_hoplite": {
+      "name": "Aegis Vanguard Hoplite",
+      "mfr": "Aegis",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 235
+    },
+    "vanguard_sentinel": {
+      "name": "Aegis Vanguard Sentinel",
+      "mfr": "Aegis",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 275
+    },
+    "vanguard_warden": {
+      "name": "Aegis Vanguard Warden",
+      "mfr": "Aegis",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 260
+    },
+    "vulcan": {
+      "name": "Aegis Vulcan",
+      "mfr": "Aegis",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 200
+    },
+    "e1_spirit": {
+      "name": "Crusader E1 Spirit",
+      "mfr": "Crusader",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 160
+    },
+    "expanse": {
+      "name": "MISC Expanse",
+      "mfr": "MISC",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 150
+    },
+    "harbinger": {
+      "name": "Esperia Harbinger",
+      "mfr": "Esperia",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 350
+    },
+    "pioneer": {
+      "name": "Consolidated Outland Pioneer",
+      "mfr": "Consolidated Outland",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 1000
+    },
+    "idris_p": {
+      "name": "Aegis Idris-P",
+      "mfr": "Aegis",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 1500
+    },
+    "javelin": {
+      "name": "Aegis Javelin",
+      "mfr": "Aegis",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 3000
+    },
+    "ranger_cv": {
+      "name": "Tumbril Ranger CV",
+      "mfr": "Tumbril",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 30
+    },
+    "storm": {
+      "name": "Tumbril Storm",
+      "mfr": "Tumbril",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 60
+    },
+    "storm_aa": {
+      "name": "Tumbril Storm AA",
+      "mfr": "Tumbril",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 70
+    },
+    "persecutor": {
+      "name": "Drake Persecutor",
+      "mfr": "Drake",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 250
+    },
+    "golem": {
+      "name": "Drake Golem",
+      "mfr": "Drake",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 0
+    },
+    "rastar": {
+      "name": "Gatac Rastar",
+      "mfr": "Gatac",
+      "role": "Multi-Role",
+      "size": "Medium",
+      "crew": "1",
+      "store_price": 0
+    }
+  },
+  "_aliases": {
+    "Zeus Mk II MR": "zeus_mr",
+    "Zeus MR": "zeus_mr",
+    "Zeus Mk II ES": "zeus_es",
+    "Zeus ES": "zeus_es",
+    "L-22 Alpha Wolf": "alpha_wolf",
+    "Alpha Wolf": "alpha_wolf",
+    "Pitbull": "pitbull",
+    "Stinger": "stinger",
+    "MTC": "stinger",
+    "Hermes": "hermes",
+    "Ares Inferno": "ares_inferno",
+    "Ares Ion": "ares_ion",
+    "Perseus": "perseus",
+    "Paladin": "paladin",
+    "600i": "600i",
+    "Mercury Star Runner": "mercury",
+    "Star Runner": "mercury",
+    "Carrack": "carrack",
+    "Hammerhead": "hammerhead",
+    "Reclaimer": "reclaimer",
+    "Caterpillar": "caterpillar",
+    "Corsair": "corsair",
+    "Liberator": "liberator",
+    "Galaxy": "galaxy",
+    "Polaris": "polaris",
+    "Avenger Titan": "avenger_titan",
+    "Gladius": "gladius",
+    "Arrow": "arrow",
+    "Nomad": "nomad",
+    "Sabre": "sabre",
+    "Sabre Raven": "sabre_raven",
+    "Cutlass Black": "cutlass_black",
+    "Freelancer": "freelancer",
+    "Freelancer MAX": "freelancer_max",
+    "Freelancer MIS": "freelancer_mis",
+    "C1 Spirit": "c1_spirit",
+    "A1 Spirit": "a1_spirit",
+    "Hull B": "hull_b",
+    "Hull A": "hull_a",
+    "Hull C": "hull_c",
+    "Prospector": "prospector",
+    "Vulture": "vulture",
+    "MOLE": "mole",
+    "Terrapin": "terrapin",
+    "Scorpius": "scorpius",
+    "Constellation Andromeda": "constellation_andromeda",
+    "F7C Hornet MkII": "f7c_mk2",
+    "F7A Hornet MkII": "f7a_mk2",
+    "F7A Hornet MkI": "f7a_mk1",
+    "F8C Lightning": "f8c",
+    "100i": "100i",
+    "125a": "125a",
+    "135c": "135c",
+    "350r": "350r",
+    "400i": "400i",
+    "600i Explorer": "600i_explorer",
+    "600i Touring": "600i_touring",
+    "85X": "85x",
+    "Apollo Medivac": "apollo_medivac",
+    "Apollo Triage": "apollo_triage",
+    "Aurora CL": "aurora_cl",
+    "Aurora ES": "aurora_es",
+    "Aurora LX": "aurora_lx",
+    "Avenger Warlock": "avenger_warlock",
+    "Blade": "blade",
+    "Buccaneer": "buccaneer",
+    "C8R Pisces": "c8r_pisces",
+    "C8X Pisces": "c8x_pisces",
+    "Carrack Expedition": "carrack_expedition",
+    "Constellation Aquila": "constellation_aquila",
+    "Constellation Phoenix": "constellation_phoenix",
+    "Constellation Taurus": "constellation_taurus",
+    "Crucible": "crucible",
+    "Cutlass Blue": "cutlass_blue",
+    "Cutter": "cutter",
+    "Defender": "defender",
+    "Eclipse": "eclipse",
+    "Endeavor": "endeavor",
+    "F7C Hornet": "f7c_hornet",
+    "F7C-M Super Hornet": "f7c_m_super_hornet",
+    "F7C-R Hornet Tracker": "f7c_r_hornet_tracker",
+    "F7C-S Hornet Ghost": "f7c_s_hornet_ghost",
+    "Fury": "fury",
+    "Gladiator": "gladiator",
+    "Gladius Valiant": "gladius_valiant",
+    "Glaive": "glaive",
+    "Herald": "herald",
+    "Hull D": "hull_d",
+    "Hull E": "hull_e",
+    "Hurricane": "hurricane",
+    "Khartu-Al": "khartu_al",
+    "M50": "m50",
+    "Mantis": "mantis",
+    "Merchantman": "merchantman",
+    "Nautilus": "nautilus",
+    "Nox": "nox",
+    "Odyssey": "odyssey",
+    "Orion": "orion",
+    "P-52 Merlin": "p_52_merlin",
+    "P-72 Archimedes": "p_72_archimedes",
+    "Prowler": "prowler",
+    "Railen": "railen",
+    "Razor": "razor",
+    "Redeemer": "redeemer",
+    "Reliant Kore": "reliant_kore",
+    "Reliant Mako": "reliant_mako",
+    "Reliant Sen": "reliant_sen",
+    "Reliant Tana": "reliant_tana",
+    "Retaliator Bomber": "retaliator_bomber",
+    "San'tok.yai": "santokyai",
+    "SRV": "srv",
+    "Starfarer": "starfarer",
+    "Starfarer Gemini": "starfarer_gemini",
+    "Valkyrie": "valkyrie",
+    "Vanguard Harbinger": "vanguard_harbinger",
+    "Vanguard Hoplite": "vanguard_hoplite",
+    "Vanguard Sentinel": "vanguard_sentinel",
+    "Vanguard Warden": "vanguard_warden",
+    "Vulcan": "vulcan",
+    "E1 Spirit": "e1_spirit",
+    "Expanse": "expanse",
+    "Harbinger": "harbinger",
+    "Pioneer": "pioneer",
+    "Idris-P": "idris_p",
+    "Javelin": "javelin",
+    "Ranger CV": "ranger_cv",
+    "Storm": "storm",
+    "Storm AA": "storm_aa",
+    "Persecutor": "persecutor",
+    "Golem": "golem",
+    "Rastar": "rastar"
+  }
+}
