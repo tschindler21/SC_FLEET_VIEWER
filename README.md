@@ -46,10 +46,10 @@ Edit `org.json` to set your org name and motto:
 
 ```json
 {
-  "name": "M21",
-  "motto": "Per Aspera Ad Astra",
-  "description": "Your org description",
-  "logo": "logo.jpg"
+  "name": "YOUR_ORG",
+  "motto": "YOUR_ORG Motto",
+  "description": "YOUR_ORG Description Text",
+  "logo": "logo.png"
 }
 ```
 
